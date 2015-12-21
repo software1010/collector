@@ -1,5 +1,6 @@
 package cn.com.ron.collector.core.server.netty;
 
+import io.netty.bootstrap.ServerBootstrap;
 import cn.com.ron.collector.core.server.Server;
 
 /**
@@ -12,8 +13,7 @@ public class NettyServer implements Server {
 
 	@Override
 	public void start(int port) {
-		// TODO Auto-generated method stub
-
+		ServerBootstrap bootstrap = new ServerBootstrap();
 	}
 
 	@Override
